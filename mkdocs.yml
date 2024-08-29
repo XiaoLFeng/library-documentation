@@ -1,0 +1,47 @@
+site_name: 筱锋开发文档
+site_url: https://docs.x-lf.com/
+repo_url: https://github.com/XiaoLFeng/library-documentation
+repo_name: library-documentation
+copyright: Copyright &copy; 2016-2024 筱锋xiao_lfeng. All Rights Reserved. 版权所有
+theme:
+  # logo: assets/favicon.png
+  # favicon: assets/favicon.png
+  name: material
+  language: zh
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: 切换亮色模式
+    - media: "(prefers-color-scheme: light)"
+      primary: blue
+      toggle:
+        icon: material/brightness-7
+        name: 切换暗色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue grey
+      toggle:
+        icon: material/brightness-4
+        name: 依照系统进行模式切换
+  features:
+    - search.suggest
+    - search.highlight
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tabs
+    - navigation.tracking
+    - navigation.footer
+    - toc.follow
+    - navigation.top
+plugins:
+  - search
+nav:
+  - 文档介绍:
+    - 介绍: index.md
+  - Java文档:
+    - Java基础: java/index.md
+  - Go文档:
+    - Go基础: go/index.md
